@@ -39,10 +39,12 @@
       "node"
     ]
   },
-  "workspaces": [
-    "react-native",
-    "react-native/**",
-    "react",
-    "react/**"
-  ]
+  "workspaces": {
+    "nohoist": [
+      "react-native",
+      "react-native/**",
+      "react",
+      "react/**"
+    ]
+  }
 }
